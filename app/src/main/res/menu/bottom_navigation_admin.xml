@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/Add_Buses"
+            android:icon="@drawable/ic_baseline_airport_shuttle_24"
+            android:title="Add Buses"
+            android:iconTint="@color/teal_700"/>
+        <item
+            android:id="@+id/Musers"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Manage users"
+            android:iconTint="@color/teal_700"/>
+        <item
+            android:id="@+id/Mreports"
+            android:icon="@drawable/ic_baseline_style_24"
+            android:title="Reports"
+            android:iconTint="@color/teal_700"/>
+
+
+    </group>
+</menu>

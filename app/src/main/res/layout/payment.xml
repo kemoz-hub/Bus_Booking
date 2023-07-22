@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        app:cardBackgroundColor="@color/material_dynamic_secondary95"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/idnop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:editable="false"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawableStart="@drawable/ic_baseline_event_note_24"
+                android:drawablePadding="6dp"
+                android:hint="Id number"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/Names"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:editable="false"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="6dp"
+                android:hint="Fullnames"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/phoneP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawableStart="@drawable/ic_baseline_phone_24"
+                android:drawablePadding="6dp"
+                android:focusable="false"
+                android:editable="false"
+                android:hint="Phone no"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/BusnoP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawableStart="@drawable/ic_baseline_airport_shuttle_24"
+                android:drawablePadding="6dp"
+                android:hint="Busno "
+                android:focusable="false"
+                android:editable="false"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Seat number"
+                app:startIconDrawable="@drawable/ic_baseline_style_24"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/seatno"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:clickable="true"
+                    android:drawablePadding="6dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:paddingStart="6dp"
+                    android:paddingEnd="6dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+
+
+                android:id="@+id/FromPP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawablePadding="6dp"
+                android:hint="From"
+                android:focusable="false"
+                android:editable="false"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/ToPP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawablePadding="6dp"
+                android:hint="To"
+                android:focusable="false"
+                android:editable="false"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/departureP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawableStart="@drawable/ic_baseline_event_note_24"
+                android:drawablePadding="6dp"
+                android:hint="Departure day"
+                android:focusable="false"
+                android:editable="false"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/AmountP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawableStart="@drawable/ic_baseline_attach_money_24"
+                android:drawablePadding="6dp"
+                android:hint="Amount "
+                android:focusable="false"
+                android:editable="false"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="payment Method"
+                app:startIconDrawable="@drawable/ic_baseline_style_24"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/payMeth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:clickable="true"
+                    android:drawablePadding="6dp"
+                    android:focusable="true"
+                    android:focusableInTouchMode="false"
+                    android:paddingStart="6dp"
+                    android:paddingEnd="6dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/material_dynamic_secondary95"
+                android:drawableStart="@drawable/ic_baseline_security_24"
+                android:drawablePadding="6dp"
+                android:hint="payment code"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                />
+
+
+
+            <Button
+                android:id="@+id/paid"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_weight="1"
+                android:text="Book" />
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
